@@ -10,7 +10,7 @@
         <p><strong>Nom:</strong>Vadym Lityuk</p>
         <p><strong>Age:</strong> 28 ans</p>
         <p><strong>Profession:</strong> Front-end Dev</p>
-        <p><strong>Passe-temps:</strong> Dessin</p>
+        <p><strong>Hobby:</strong> Dessin</p>
     </div>
   </div>
 </template>
