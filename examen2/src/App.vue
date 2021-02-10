@@ -1,24 +1,19 @@
 <template>
-<v-app>
-<v-app-bar></v-app-bar>
-<v-content>
 <div id="app">
-    <Header msg="Welcome to Your Vue.js App"/>
+    <Header/>
   </div>
 
-</v-content>
-</v-app>
 
 </template>
 
 <script>
-import Header from './components/Header.vue'
+//import MainPage from './components/MainPage.vue'
+
+import Header from './components/MainPage.vue'
 
 export default {
   name: 'App',
-  components: {
-    Header,
-  }
+  components: { Header }
 }
 </script>
 
