@@ -1,7 +1,7 @@
 <template>
   <div class="main-page">
     <h1>
-      Онлайн кинотеатр
+     Test
     </h1>
     <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Перейти к фильмам</button>
   </div>
@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
   }
     h1 {
       color: #ffffff;

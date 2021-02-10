@@ -5,7 +5,7 @@
         <span v-if="showProfile">Vadym Lityuk </span>
         !
     </h1>
-    <p v-if="!showProfile">Hello my prjct</p>
+    <p v-if="!showProfile">Hello my project</p>
     <div v-if="showProfile" class="profile">
         <p><strong>Nom:</strong>Vadym Lityuk</p>
         <p><strong>Age:</strong> 28 ans</p>
