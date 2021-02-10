@@ -5,21 +5,14 @@
         :to="{ name: 'main' }"
         class="logo"
       >
-        Кинотеатр
+       My Projects
       </router-link>
       <div class="links">
         <router-link
-          :to="{ name: 'films' }"
+          :to="{ name: '..' }"
         >
-          Фильмы
+          LogIn
         </router-link>
-        <button
-          type="button"
-          class="btn btn-outline-light btn-lg"
-          @click="changeUserState"
-        >
-          {{ auth ? 'Выйти' : 'Войти' }}
-        </button>
       </div>
     </div>
   </header>
@@ -27,25 +20,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      auth: false
-    }
-  },
-  created() {
-    this.auth = localStorage.getItem('auth') !== null
-  },
-  methods: {
-    changeUserState() {
-      if (this.auth) {
-        localStorage.removeItem('auth')
-        this.$router.push({ name: 'main'})
-      } else {
-        localStorage.setItem('auth', true)
-        this.auth = true
-      }
-    }
-  }
+  name: 'Header',
 }
 </script>
 
