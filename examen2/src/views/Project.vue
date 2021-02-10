@@ -15,7 +15,7 @@ export default {
           projects: [
               "Overwatch",
               "Cyber",
-               "Portfolio",
+              "Portfolio",
           ]
       }
   }

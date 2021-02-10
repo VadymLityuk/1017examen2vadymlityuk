@@ -5,15 +5,10 @@
         :to="{ name: 'main' }"
         class="logo"
       >
-       My Projects
+       Accueil
       </router-link>
-      <div class="links">
-        <router-link
-          :to="{ name: '..' }"
-        >
-          LogIn
-        </router-link>
-      </div>
+     
+     
     </div>
   </header>
 </template>
@@ -21,12 +16,13 @@
 <script>
 export default {
   name: 'Header',
+  
 }
 </script>
 
 <style lang="css" scoped>
 header {
-  background-color: #0c0c0c;
+  background-color: hsl(0, 0%, 15%);
 }
   .container {
     margin-top: 0;
