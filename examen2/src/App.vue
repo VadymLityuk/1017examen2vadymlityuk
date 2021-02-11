@@ -3,9 +3,11 @@
   
     <Header/>
      <nav>
-      <router-link v-for="(item, i) in menuItems" :key="i" :to="item.path">{{ item.name }}</router-link>
+      <router-link v-for="(item, i) in menuItems" :key="i" :to="item.path">{{ item.name }}
+
+      </router-link>
     </nav>
-      <Accueil/>
+      
      
     <router-view />
        <Footer/>
@@ -16,12 +18,12 @@
 
 <script>
 //import MainPage from './components/MainPage.vue'
-import Accueil from './views/Accueil.vue';
+
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 export default {
   name: 'App',
-  components: {Accueil,Header,Footer
+  components: {Header,Footer
   },
   data() {
     return {
