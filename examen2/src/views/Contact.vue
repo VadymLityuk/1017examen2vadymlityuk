@@ -3,7 +3,7 @@
     <h2>Contact</h2>
     <input type="text" name="lastname" placeholder="Nom" />
     <input type="text" name="firstname" placeholder="Prenom" />
-    <input type="text" name="email" placeholder="Email" />
+    <input type="text" name="email" placeholder="Courriel" />
     <select class="sel" name="categorie">
         <option v-for="(subject, i) in dropdown" :key="i"> {{ subject }}</option>
     </select>

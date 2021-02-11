@@ -1,53 +1,38 @@
 <template>
   <header>
-    <div class="container">
-      <router-link
-        :to="{ name: 'main' }"
-        class="logo"
-      >
-       Accueil
-      </router-link>
-     
-     
-    </div>
+    <ul>
+     <nav v-for="item in menu" :key="item.id+item.name">   
+          <router-link v-if="item.name==='about'" style="float:right" class="link" :to="{path:item.name}"  tag="a">{{item.name}}</router-link>
+          <router-link v-else class="link" :to="{path:item.name}" tag="a">{{item.name}}</router-link>
+      </nav>  
+      </ul> 
+ 
+    
   </header>
 </template>
 
 <script>
+import   {mixinTranslations}  from "../mixins/mixinTranslations";
+
+
 export default {
+  mixins: [mixinTranslations],
   name: 'Header',
-  
+   props: [],
+    data () {
+      return {
+        menu: [
+              {id:1, name: 'Accueil'},
+              {id:2, name: 'Projects'},
+              {id:3, name: 'Contact'},
+        ]
+      }
+    
+    }
 }
 </script>
 
 <style lang="css" scoped>
-header {
-  background-color: hsl(0, 0%, 15%);
-}
-  .container {
-    margin-top: 0;
-    display: flex;
-    align-items: baseline;
-  
-  padding: 20px 0;
-  }
-  a {
-    text-decoration: none;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 25px;
-  }
-  .logo {
-    color: #EB5804;
-    font-size: 30px;
-  }
-  .links {
-    margin-left: 75px;
-    display: flex;
-    flex-grow: 1;
-  }
-  button {
-    margin-left: auto;
-  }
+
 
 </style>

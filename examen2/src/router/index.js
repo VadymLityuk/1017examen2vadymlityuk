@@ -11,13 +11,13 @@ const Projet = () =>
 
 const routes = [
   {
-    path: "/",
-    name: "Accueil",
+    path: "/home",
+    name: "Home",
     component: Accueil
   },
   {
-    path: "/projets",
-    name: "Projets",
+    path: "/projects",
+    name: "Projects",
     component: Projet
   },
   {

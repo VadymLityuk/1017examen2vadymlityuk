@@ -122,20 +122,17 @@ body {
 }
 
 
-  nav {
+  ul {
     align-items: baseline;
     display: flex;
     text-shadow: var(--ui-glow-text);
     text-transform: uppercase;
     transition: transform 0.25s;
-    align-items: center;
-    display: flex;
     grid-area: header;
     justify-content: space-between;
-    padding: 1rem 0 0.5rem 0;
     
   }  
-  nav a {
+  ul a {
     
     font-family: Tomorrow, sans-serif;
     float: left;
@@ -146,7 +143,7 @@ body {
     text-decoration: none;
     font-size: 20px;
   }
-  nav a.router-link-exact-active {
+  ul a.router-link-exact-active {
     width: 230px;
     height: 50px; 
     background-color: var(--colors-primary--700 0.5);
