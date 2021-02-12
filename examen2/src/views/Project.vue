@@ -4,11 +4,7 @@
     <div>
       
                 
-      <ul >
-           <button  class="btn "  v-for="(projet, i) in projets" :key="i">
-                          <span :href="projet.link" target="_blank" class="btn__content"> {{ projet.name | translateTo(language)}}</span>
-                        
-                      </button>
+      
         <button class="btn " v-for="(projet, i) in projets" :key="i"> <a :href="projet.link" target="_blank"  > {{ projet.name | translateTo(language)}}</a> </button>
     </ul>
         <button v-for="(project, i) in projects" :key="i"> {{ project }}</button>
