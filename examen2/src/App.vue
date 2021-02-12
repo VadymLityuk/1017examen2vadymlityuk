@@ -2,7 +2,8 @@
 <div id="app">
   
     <Header/>
-   
+    <Accueil v-if="showAccueil"/>
+    <Profile v-if="showProfile"/>
     <router-view />
        <Footer/>
   </div>
@@ -15,29 +16,31 @@
 import   {mixinTranslations}  from "./mixins/mixinTranslations";
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
+import Accueil from './views/Accueil.vue';
+import Profile from './views/Profile.vue';
 export default {
    mixins: [mixinTranslations],
   name: 'App',
-  components: {Header,Footer
+  components: {Header,Footer,Accueil,Profile
   },
   data() {
     return {
-      menuItems: [
-        {
-          name: "HOME",
-          path: "/home",
-        },
-        {
-          name: "Projects",
-          path: "/projectsSS",
-        },
-        {
-          name: "Contact",
-          path: "/contact",
-        }
-      ]
+      loggedIn: false,
+        showAccueil: false,
+        showProfile: false,
+     
     }
-  }
+  },
+
+   created() {
+      if(this.loggedIn){
+        this.showAccueil=false;
+        this.showProfile=true;
+      } else{
+        this.showProfile=false;
+        this.showAccueil=true;
+      }
+  },
     
 }
 </script>

@@ -25,7 +25,23 @@ export default {
               {id:1, name: 'Accueil'},
               {id:2, name: 'Projects'},
               {id:3, name: 'Contact'},
-        ]
+
+              
+        ],
+         menuItems: [
+        {
+          name: "HOME",
+          path: "/home",
+        },
+        {
+          name: "Projects",
+          path: "/projects",
+        },
+        {
+          name: "Contact",
+          path: "/contact",
+        }
+      ]
       }
     
     }

@@ -1,40 +1,57 @@
 <template>
-  <div class="home">
-    <h1>
-        Hello
-        <span v-if="showProfile">Vadym Lityuk </span>
-        !
-    </h1>
-    <p v-if="!showProfile">Hello my project</p>
-    <div v-if="showProfile" class="profile">
-        <p><strong>Nom:</strong>Vadym Lityuk</p>
-        <p><strong>Age:</strong> 28 ans</p>
-        <p><strong>Profession:</strong> Front-end Dev</p>
-        <p><strong>Hobby:</strong> Dessin</p>
-    </div>
+  <div>
+      <Profile v-if="showProfile" name='profile'/>
+  <a> <span class="far__label">WELCOME__</span></a> 
   </div>
 </template>
 
 <script>
+import Profile from '../views/Profile.vue'
+import   {mixinTranslations}  from "../mixins/mixinTranslations";
+
 export default {
+   mixins: [mixinTranslations],
   name: 'Accueil',
+
+   components: {
+      Profile
+    },
   data() {
       return {
           showProfile: false,
       }
   },
   created() {
-    let loggedIn = false;
+      let loggedIn = false;
   
-    if (loggedIn) {
-        this.showProfile = true;
-        console.log(this.showProfile);
-    }
+      if (loggedIn) {
+          this.showProfile = true;
+      }
   }
 }
 </script>
 
 <style scoped>
+
+
+ .far__label {
+   
+  font-family: Tomorrow, sans-serif;
+    font-size: 15px;
+    bottom: -1px;
+    color:var( --colors-primary--500);
+    right: 8%;
+    padding: 0 5px;
+    background-color: var(--colors-primary--700);
+    z-index: 3;
+    border-left: 1px solid var(--blue-color);
+  }
+  
+  .far--secondary .far__label {
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
+  
 .home {
     min-height: 50vh;
     max-width: 1300px;
