@@ -22,6 +22,7 @@ export const mixinTranslations = {
       OVERWTACH:"OVERWTACH",
       Portfolio:"Portfolio",
       Spotify:"Spotify",
+      meeting:"meeting",
     },
     fr: {
       firstName: "Prenom",
@@ -43,6 +44,7 @@ export const mixinTranslations = {
       OVERWTACH:"OVERWTACH",
       Portfolio:"Portfolio",
       Spotify:"Spotify",
+      meeting:"rendes-vous",
      }, 
 
     filters :{
