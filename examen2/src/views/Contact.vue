@@ -2,6 +2,7 @@
   <form class="contact">
     <h2>Contact</h2>
     <input type="text" name="lastname" placeholder="Nom" />
+        <input type="text" name="lastname"  />
     <input type="text" name="firstname" placeholder="Prenom" />
     <input type="text" name="email" placeholder="Courriel" />
     <select class="sel" name="categorie">

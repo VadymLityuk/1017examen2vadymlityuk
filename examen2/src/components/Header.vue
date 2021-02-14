@@ -2,8 +2,8 @@
   <header>
     <ul>
      <nav v-for="item in menu" :key="item.id+item.name">   
-          <router-link v-if="item.name==='about'" style="float:right" class="link" :to="{path:item.name}"  tag="a">{{item.name}}</router-link>
-          <router-link v-else class="link" :to="{path:item.name}" tag="a">{{item.name}}</router-link>
+          <router-link v-if="item.name==='about'" style="float:right" class="link" :to="{path:item.name}"  tag="a">{{item.name | translateTo(language)}}</router-link>
+          <router-link v-else class="link" :to="{path:item.name}" tag="a">{{item.name | translateTo(language)}}</router-link>
       </nav>  
       </ul> 
  
@@ -22,16 +22,16 @@ export default {
     data () {
       return {
         menu: [
-              {id:1, name: 'Accueil'},
-              {id:2, name: 'Projects'},
-              {id:3, name: 'Contact'},
+              {id:1, name: 'home'},
+              {id:2, name: 'projects'},
+              {id:3, name: 'contact'},
 
               
         ],
          menuItems: [
         {
           name: "HOME",
-          path: "/home",
+          path: "/",
         },
         {
           name: "Projects",

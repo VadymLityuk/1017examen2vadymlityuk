@@ -1,7 +1,8 @@
 <template>
   <div>
+      <a> <span class="far__label">WELCOME__</span></a> 
       <Profile v-if="showProfile" name='profile'/>
-  <a> <span class="far__label">WELCOME__</span></a> 
+
   </div>
 </template>
 

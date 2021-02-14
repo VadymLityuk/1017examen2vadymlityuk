@@ -1,7 +1,6 @@
 export const mixinTranslations = {
     data () {
         return {
-            //French to English
            language: "french"
         }
       },
@@ -23,6 +22,7 @@ export const mixinTranslations = {
       Portfolio:"Portfolio",
       Spotify:"Spotify",
       meeting:"meeting",
+      home: "Home",
     },
     fr: {
       firstName: "Prenom",
@@ -33,7 +33,7 @@ export const mixinTranslations = {
       reasonOfContact: "Raison du contact",
       job: "Emploi",
       informations: "Informations",
-      project: "Projet",
+      project: "Projets",
       appointment: "Prise de rendez-vous",
       other: "Autre",
       about: "À propos",

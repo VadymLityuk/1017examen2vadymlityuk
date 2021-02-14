@@ -3,8 +3,7 @@
       <h1> {{"myProjects" | translateTo(language)}}</h1>
     <div>
       
-                
-      
+     <ul>       
         <button class="btn " v-for="(projet, i) in projets" :key="i"> <a :href="projet.link" target="_blank"  > {{ projet.name | translateTo(language)}}</a> </button>
     </ul>
         <button v-for="(project, i) in projects" :key="i"> {{ project }}</button>
@@ -46,10 +45,10 @@ export default {
   height: 60px; 
   border: 0;
   outline: none;
-  background-color: var(--black-color);
+  background-color: transparent;
   cursor: pointer;
-  position: relative;
   font-family: Tomorrow, sans-serif;
+  border: 1px solid #9c3230;
   font-size: .85rem;
   text-transform: uppercase;
   color: var(--black-color);
@@ -57,10 +56,8 @@ export default {
 }
 
 .btn__content {
-  display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   top: 2px;
   left: 2px;
   right: 2px;
