@@ -2,8 +2,8 @@
 <div id="app">
   
     <Header/>
-    <Accueil  v-if="showProfile"/>
-    <Profile v-if="showAccueil" />
+    <Accueil   v-if="showAccueil"/>
+    <Profile v-if="showProfile" />
     <router-view />
        <Footer/>
   </div>

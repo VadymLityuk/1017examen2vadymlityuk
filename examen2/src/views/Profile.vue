@@ -24,7 +24,13 @@ export default {
     margin: 0 auto;
 }
 p {
-    margin: 0 auto;
-    max-width: 600px;
+  font-family: sans-serif;
+  letter-spacing: 0.25px;
+  font-weight: lighter;
+  padding-left: 4px;
+  font-size: 0.88em;
+  color: var(--colors-primary--500);
+  margin-top: 2%;
 }
+
 </style>
