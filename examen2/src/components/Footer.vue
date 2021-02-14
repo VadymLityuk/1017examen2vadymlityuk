@@ -1,6 +1,6 @@
 <template>
   <footer>
-     <p v-mydirective> Vadym Lityuk </p>
+     <p v-mydirective> - Vadym Lityuk </p>
   </footer>
 </template>
 
@@ -11,7 +11,7 @@ export default  {
     directives: {
       mydirective: {
        bind: function(el) {
-         el.innerHTML = 'Copyright © ' + new Date().getFullYear() + el.innerHTML ;
+         el.innerHTML = 'Copyright © -' + new Date().getFullYear() + el.innerHTML + '- All Rights Reserved' ;
         el.style.color = 'var(--colors-tertiary--500)';
       },
     },
