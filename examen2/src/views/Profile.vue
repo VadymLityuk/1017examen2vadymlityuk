@@ -2,11 +2,12 @@
   <div class="prof">
     <h1>Mon profil</h1>
     <div class="infos">
-       <p><strong>Nom:</strong>Vadym Lityuk</p>
-        <p><strong>Age:</strong>  {{ age| translateTo(language) }}</p>
-        <p><strong>Profession:</strong> Front-end Dev</p>
-        <p><strong>Hobby:</strong> Dessin</p>
-        <p><strong>Info:</strong> {{ info| translateTo(language) }}</p>
+       <p><strong>{{'firstName'| translateTo(language)}}:</strong>Vadym</p>
+       <p><strong>{{'lastName'| translateTo(language)}}:</strong>Lityuk</p>
+        <p><strong>Age:</strong>  {{'age'| translateTo(language)}} </p>
+        <p><strong>{{'job'| translateTo(language)}}:</strong> Front-end Dev</p>
+        <p><strong>{{'hobby'| translateTo(language)}}:</strong> Dessin</p>
+        <p><strong>{{'informations'| translateTo(language)}}:</strong> {{'info'| translateTo(language)}} </p>
     </div>
   </div>
 </template>
@@ -19,6 +20,8 @@ export default {
   
   mixins: [mixinTranslations],
   name: 'Footer',
+
+    
 }
 </script>
 
