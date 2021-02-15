@@ -3,7 +3,7 @@
   
     <Header/>
     <Accueil   v-if="showAccueil"/>
-    <Profile  v-if="showAccueil" />
+    <Profile v-if="showProfile" />
     <router-view />
        <Footer/>
   </div>
