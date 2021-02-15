@@ -3,15 +3,21 @@
     <h1>Mon profil</h1>
     <div class="infos">
        <p><strong>Nom:</strong>Vadym Lityuk</p>
-        <p><strong>Age:</strong> 28 ans</p>
+        <p><strong>Age:</strong>  {{ age| translateTo(language) }}</p>
         <p><strong>Profession:</strong> Front-end Dev</p>
         <p><strong>Hobby:</strong> Dessin</p>
+        <p><strong>Info:</strong> {{ info| translateTo(language) }}</p>
     </div>
   </div>
 </template>
 
 <script>
+import   {mixinTranslations}  from "../mixins/mixinTranslations";
+
+
 export default {
+  
+  mixins: [mixinTranslations],
   name: 'Footer',
 }
 </script>

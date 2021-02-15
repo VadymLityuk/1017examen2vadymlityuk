@@ -6,11 +6,10 @@ export const mixinTranslations = {
       },
     en: {
       firstName: "Firstname",
-      age: "Age",
+      age: "28 years",
       lastName: "Lastname",
       email: "Email",
       contact: "Contact",
-      reasonOfContact: "Reason of Contact",
       job: "Job ",
       informations: "Informations",
       project: "Project",
@@ -23,14 +22,14 @@ export const mixinTranslations = {
       Spotify:"Spotify",
       meeting:"meeting",
       home: "Home",
+      info:"I am a junior Front-End Developer located in Quebec. I am currently working as a UI / UX Front End Developer"
     },
     fr: {
       firstName: "Prenom",
-      age: "Age",
+      age: "28 ans",
       lastName: "Nom",
       email: "Courriel",
       contact: "Contact",
-      reasonOfContact: "Raison du contact",
       job: "Emploi",
       informations: "Informations",
       project: "Projets",
@@ -45,6 +44,7 @@ export const mixinTranslations = {
       Portfolio:"Portfolio",
       Spotify:"Spotify",
       meeting:"rendes-vous",
+      info:"Je suis un junior Front-End Développeur situé à Québec. Je travaille actuellement en tant que UI/UX Front End Developper."
      }, 
 
     filters :{

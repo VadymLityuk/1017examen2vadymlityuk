@@ -3,7 +3,7 @@
     <h1>
      Test
     </h1>
-    <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Перейти к фильмам</button>
+    <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Перейти</button>
   </div>
 </template>
 
