@@ -1,6 +1,6 @@
 <template>
   <footer>
-     <p v-mydirective> - Vadym Lityuk </p>
+     <p v-mydirective> Vadym Lityuk </p>
   </footer>
 </template>
 
