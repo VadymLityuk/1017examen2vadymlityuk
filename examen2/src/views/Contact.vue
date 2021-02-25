@@ -1,3 +1,9 @@
+
+<!--Contact.vue/ Page de contact-->
+<!--Vadym Lityuk 25 février 2021-->
+
+
+<!--Le formulaire n'envoie pas d'informations-->
 <template>
   <form class="contact">
     <h2>Contact</h2>
@@ -17,6 +23,7 @@ export default {
   name: 'Projet',
   data() {
       return {
+        //Ajout d'options de sélection au menu déroulant
           dropdown: [
               "job",
               "informations",

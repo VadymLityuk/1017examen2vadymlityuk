@@ -1,3 +1,6 @@
+<!--Header.vue/ menu de navigation-->
+<!--Vadym Lityuk 25 février 2021-->
+
 <template>
   <header>
     <ul>
@@ -21,6 +24,7 @@ export default {
    props: [],
     data () {
       return {
+        //chaque numero indiquant id de la page
         menu: [
               {id:1, name: 'home'},
               {id:2, name: 'projects'},
@@ -30,14 +34,17 @@ export default {
         ],
          menuItems: [
         {
+          //Page Accueil
           name: "HOME",
           path: "/",
         },
         {
+          //Page Projets
           name: "Projects",
           path: "/projects",
         },
         {
+          //Page Contact
           name: "Contact",
           path: "/contact",
         }

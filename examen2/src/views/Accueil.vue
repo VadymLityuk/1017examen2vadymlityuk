@@ -1,3 +1,8 @@
+
+<!--Accueil.vue/ Page d'accueil-->
+<!--Vadym Lityuk 25 février 2021-->
+
+
 <template>
   <div>
       <a> <span class="far__label">WELCOME__</span></a> 
@@ -13,7 +18,7 @@ import   {mixinTranslations}  from "../mixins/mixinTranslations";
 export default {
    mixins: [mixinTranslations],
   name: 'Accueil',
-
+// simulation de Log In 
    components: {
       Profile
     },
@@ -31,7 +36,7 @@ export default {
   }
 }
 </script>
-
+<!--  Ici j'ajouter <style scoped>  pour ajouter le css à page d'accueil seulement -->
 <style scoped>
 
 

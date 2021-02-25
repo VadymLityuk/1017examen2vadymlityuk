@@ -1,3 +1,9 @@
+
+<!--App.vue/ Page d'application generale-->
+<!--Vadym Lityuk 25 février 2021-->
+
+
+
 <template>
 <div id="app">
   

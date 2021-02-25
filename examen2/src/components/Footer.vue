@@ -1,3 +1,6 @@
+<!--Footer.vue/ directives bas de page-->
+<!--Vadym Lityuk 25 février 2021-->
+
 <template>
   <footer>
      <p v-mydirective> Vadym Lityuk </p>
@@ -11,7 +14,9 @@ export default  {
     directives: {
       mydirective: {
        bind: function(el) {
+        // function Bind à la directive pour l'affichage de FullYear + Copyright + mon texte
          el.innerHTML = 'Copyright © -' + new Date().getFullYear() + el.innerHTML + '- All Rights Reserved' ;
+         //coluer du pied de page
         el.style.color = 'var(--colors-tertiary--500)';
       },
     },

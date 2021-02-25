@@ -1,9 +1,13 @@
+<!--MainPage.vue/ Page pour test jest-->
+<!--Vadym Lityuk 25 février 2021-->
+
+
 <template>
   <div class="main-page">
     <h1>
      Test
     </h1>
-    <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Перейти</button>
+    <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Test Page</button>
   </div>
 </template>
 

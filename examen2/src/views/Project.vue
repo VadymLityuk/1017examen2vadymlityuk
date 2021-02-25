@@ -1,9 +1,16 @@
+
+<!--Profile.vue/ Page Profile-->
+<!--Vadym Lityuk 25 février 2021-->
+
 <template>
   <div class="project">
       <h1> {{"myProjects" | translateTo(language)}}</h1>
     <div>
       
-     <ul>       
+     <ul>  
+       <!-- ici vous pouvez voir l'utilisation de la fonction qui 
+       vous permettra d'aller sur une autre lien en cliquant sur le bouton. 
+       la fonction elle-même avec des liens est décrite ci-dessous-->     
         <button class="btn " v-for="(projet, i) in projets" :key="i"> <a :href="projet.link" target="_blank"  > {{ projet.name | translateTo(language)}}</a> </button>
     </ul>
         <button v-for="(project, i) in projects" :key="i"> {{ project }}</button>
@@ -19,6 +26,8 @@ export default {
   data() {
       return {
           projets: [
+            //le nom du projet et le lien vers celui-ci, 
+            //l'utilisation de mixins, bien que les noms des boutons restent identiques et ne soient pas traduits
               {name:"MOVIMANIA",link:"https://vadymlityuk.github.io/AEC_Front_End/Programmation2/mania/moviemania/build/index.html?fbclid=IwAR2vaOyHFvupjj_q2CFfbjKaCIIbqP9qYl6Wj7QGfIIjgFOHcZOSs7pjJ8I#/Accueil"},
               {name:"OVERWTACH",link:"https://vadymlityuk.github.io/AEC_Front_End/Integration1/Projet%20Final/index.html"},
               {name:"Portfolio",link:"https://vadymlityuk.github.io/AEC_Front_End/Portfolio/PORTFOLIO/portfolio/index.html?fbclid=IwAR2U9Lcif5OLx-0X4UVRdoog6luowZ9rKiF5DyfJiObkZSDU3IeKFIqMJbI"},

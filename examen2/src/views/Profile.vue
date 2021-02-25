@@ -1,3 +1,10 @@
+
+<!--Profile.vue/ Page Profile-->
+<!--Vadym Lityuk 25 février 2021-->
+
+<!-- ici vous pouvez voir les informations qui apparaîtront sur la page Accueil
+ uniquement si l'utilisateur est connecté-->
+
 <template>
   <div class="prof">
     <h1>Mon profil</h1>
