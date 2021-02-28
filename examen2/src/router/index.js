@@ -8,6 +8,7 @@ const Contact = () =>
   import( "../views/Contact.vue");
 const Projet = () =>
   import( "../views/Project.vue");
+  const License = () => import( "../views/License.vue");
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/contact",
     name: "Contact",
     component: Contact
+  },
+  {
+    path: "/license",
+    name: "license",
+    component: License
   }
 ];
 

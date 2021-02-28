@@ -24,6 +24,7 @@ export const mixinTranslations = {
       Spotify:"Spotify",
       meeting:"meeting",
       home: "Home",
+      license: "license",
       info:"I am a junior Front-End Developer located in Quebec. I am currently working as a UI / UX Front End Developer"
     },
     fr: {
@@ -41,6 +42,7 @@ export const mixinTranslations = {
       other: "Autre",
       about: "À propos",
       home: "Accueil",
+      license: "license",
       projects: "Projets",
       myProjects: "Mes Projets",
       MOVIMANIA:"MOVIMANIA",

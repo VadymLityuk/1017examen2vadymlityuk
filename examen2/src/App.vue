@@ -8,7 +8,6 @@
 <div id="app">
   
     <Header/>
-    <Accueil   v-if="showAccueil"/>
     <Profile v-if="showProfile" />
     <router-view />
        <Footer/>
@@ -22,12 +21,11 @@
 import   {mixinTranslations}  from "./mixins/mixinTranslations";
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
-import Accueil from './views/Accueil.vue';
 import Profile from './views/Profile.vue';
 export default {
    mixins: [mixinTranslations],
   name: 'App',
-  components: {Header,Footer,Accueil,Profile
+  components: {Header,Footer,Profile
   },
   data() {
     return {

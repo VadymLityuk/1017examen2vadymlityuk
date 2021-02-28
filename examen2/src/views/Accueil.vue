@@ -5,7 +5,9 @@
 
 <template>
   <div>
-      <a> <span class="far__label">WELCOME__</span></a> 
+      <a> <span class="far__label">BONJOUR__</span></a> 
+     <hr>
+      <p>Bonjour, je suis heureux de vous accueillir sur mon site pour le projet final de Vue Js</p>
       <Profile v-if="showProfile" name='profile'/>
 
   </div>
@@ -69,7 +71,20 @@ export default {
     padding: 4rem 1rem;
 }
 p {
-    max-width: 500px;
-    margin: 0 auto;
+   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: lighter;
+  letter-spacing: 0.25px;
+  font-weight: lighter;
+  padding-left: 4px;
+  font-size: 1em;
+  color: var(--colors-primary--500);
+  margin-top: 2%;
 }
+
+  hr{
+    height: 1px;
+    background-color: var(--colors-primary--500);
+    border: none;
+
+  }
 </style>

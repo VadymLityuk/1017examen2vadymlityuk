@@ -3,7 +3,9 @@
 
 <template>
   <footer>
-     <p v-mydirective> Vadym Lityuk </p>
+     <div v-mydirective> - Vadym Lityuk -
+       <a href="https://github.com/VadymLityuk/1017examen2vadymlityuk/blob/main/LICENSE">License</a>
+        </div>
   </footer>
 </template>
 

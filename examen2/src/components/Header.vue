@@ -9,8 +9,7 @@
           <router-link v-else class="link" :to="{path:item.name}" tag="a">{{item.name | translateTo(language)}}</router-link>
       </nav>  
       </ul> 
- 
-    
+     
   </header>
 </template>
 
@@ -28,6 +27,7 @@ export default {
         menu: [
               {id:1, name: 'home'},
               {id:2, name: 'projects'},
+                {id:3, name: 'license'},
               {id:3, name: 'contact'},
 
               
@@ -47,6 +47,11 @@ export default {
           //Page Contact
           name: "Contact",
           path: "/contact",
+        },
+           {
+          //Page Contact
+          name: "license",
+          path: "/license",
         }
       ]
       }

@@ -33,6 +33,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 .prof {
     padding: 2rem;
     min-height: 60vh;
