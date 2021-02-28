@@ -2,6 +2,8 @@
 
 /**
  // @type {import('@vue/cli-service').ProjectOptions}
- */ functionmodule.exports = {
+ */
+ //function
+ module.exports = {
   publicPath: "1017examen2vadymlityuk/examen2/dist/",
  }
