@@ -12,3 +12,5 @@ describe('mtesting mixin translations', () => {
       expect(document.title).toBe('translation mixin')
     })
   })
+
+  //jest test 2

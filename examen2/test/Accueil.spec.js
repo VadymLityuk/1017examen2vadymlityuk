@@ -4,7 +4,7 @@ import { mount } from '@vue/test-utils';
 describe("Tests unitaires page d'Accueil", () => {
 
  
-    test('Accueil est une instance de vue?', () => {
+    test('Accuel est une instance', () => {
         const wrapper = mount(Accueil, {
             propsData: {
                Accueil:{
