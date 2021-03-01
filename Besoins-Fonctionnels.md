@@ -1,5 +1,5 @@
 
-#BESOINS FONCTIONNELS
+## BESOINS FONCTIONNELS
 
  - Le site utilise un Vue router dans le menu de navigation avec l'aide duquel vous pouvez aller vers d'autres pages.
  - De plus, sur chaque page, une simulation de changement de langue est utilisée, le site est disponible en versions française et anglaise. 

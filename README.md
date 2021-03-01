@@ -15,31 +15,31 @@ La page Contact contient un formulaire intégré qui est également une sorte de
 
 
 
-##Installation et Build Setup
+## Installation et Build Setup
 
-#installer les dépendances
+# installer les dépendances
 npm install
 
-#server avec rechargement à localhost: 8080
+# server avec rechargement à localhost: 8080
 npm run serve / npm run dev
 
-#construire build/dist pour la production et afficher le rapport de l'analyseur de bundle
+# construire build/dist pour la production et afficher le rapport de l'analyseur de bundle
 npm run build --report
 
-#exécuter des tests unitaires
+# exécuter des tests unitaires
 npm run test unit
 
-#exécuter tous les tests
+# exécuter tous les tests
 npm test
 
 
-##Déploiement
+## Déploiement
 
 GitHub Pages
 
  J'ai choisi GitHub Page précisément parce que j'utilise GitHub presque tous les jours, tout est familier et confortable à utiliser
 
-##Mes Étapes de déploiement
+## Mes Étapes de déploiement
 
 1.npm run build
 2.cd dist/git add ./git push -m "mon commit" 
