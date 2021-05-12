@@ -3,7 +3,7 @@
 
 <template>
   <footer>
-     <div v-mydirective> - Vadym Lityuk -
+     <div v-mydirective> - New update vue test-
        <a href="https://github.com/VadymLityuk/1017examen2vadymlityuk/blob/main/LICENSE">License</a>
         </div>
   </footer>
