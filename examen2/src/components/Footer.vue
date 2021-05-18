@@ -3,7 +3,7 @@
 
 <template>
   <footer>
-     <div v-mydirective> -to vue updatet-
+     <div v-mydirective> - up to vue updatet-
        <a href="https://github.com/VadymLityuk/1017examen2vadymlityuk/blob/main/LICENSE">License</a>
         </div>
   </footer>
@@ -37,8 +37,10 @@ export default  {
 
 <style scoped>
 footer{
-
+  background-color:  rgb(179, 154, 179);
   padding-top: 140px;
+  visibility: hidden;
+  
 }
 
 </style>
