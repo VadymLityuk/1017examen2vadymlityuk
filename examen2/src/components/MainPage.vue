@@ -12,7 +12,7 @@
 </template>
 
 <style lang="css" scoped>
-  /* .main-page {
+ .main-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +23,5 @@
       color: #ffffff;
       font-size: 70px;
       margin-bottom: 20px;
-    } */
-  
+    }
 </style>
