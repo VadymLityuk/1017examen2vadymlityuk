@@ -24,4 +24,19 @@
       font-size: 70px;
       margin-bottom: 20px;
     }
+    h2 {
+      color: #ffffff;
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      color: #ffffff;
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      color: #ffffff;
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
 </style>
