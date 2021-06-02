@@ -5,7 +5,7 @@
 <template>
   <div class="main-page">
     <h1>
-     Main Page test vue
+     Main Page test
     </h1>
     <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Test Page</button>
   </div>
