@@ -5,7 +5,7 @@
 <template>
   <div class="main-page">
     <h1>
-     Main Page test
+  TEST MAIN Vue to Full Callendar
     </h1>
     <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Test Page</button>
   </div>
