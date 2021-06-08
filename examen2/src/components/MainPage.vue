@@ -9,6 +9,14 @@
     </h1>
     <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Test Page</button>
   </div>
+  <div>
+  
+  
+  Full Calendat Component
+  
+  </div>
+
+  <div></div>
 </template>
 
 <style lang="css" scoped>
