@@ -8,6 +8,11 @@
   TEST MAIN Vue to Full Callendar
     </h1>
     
+  
+  <div>
+  Full Calendat Component
+  
+  </div>
     <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Test Page</button>
   </div>
 
