@@ -11,7 +11,7 @@
 
 <script>
 export default  {
-    name: 'bas de la page2',
+    name: 'bas de la page',
     props: [],
     directives: {
       mydirective: {
