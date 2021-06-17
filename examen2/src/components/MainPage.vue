@@ -12,8 +12,6 @@
   <div>
   Full Calendat Component
   
-  Full Calendat Component2
-  
   </div>
     <button type="button" class="btn btn-outline-light" @click="$router.push({ name: 'accueil' })">Test Page</button>
   </div>
