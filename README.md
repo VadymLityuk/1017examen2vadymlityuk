@@ -4,8 +4,8 @@
 
  C'est  une application Vue de type OnePage.
     Pour ce projet,je me suis inspiré du  visuel du menu du jeu Cyberpunk 2077 et j'ai essayé de le recréer avec CSS.
-    En generale Projet est developper avec Framework Vue2. 
-    Le Projet est structuré avec plusieurs composants
+    En generale Projet est developper avec Framework Vue2
+    Le Projet est structuré avec plusieurs composants 
 
    Dans ce projet, nous pouvons trouver cinque pages: Accueil, Contacts Projets,License et Profil.
 L'accès aux pages se fait via un Header à l'aide d'un Vue-router, sur la page Projets vous pouvez en savoir plus sur mes autres projets que j'ai développés au cours de mes études.
